@@ -52,14 +52,37 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
 
   
+    <link rel="stylesheet" href="css/coming-soon.css">
+
 </head>
 <body>
 
   
+    <article class="d-container">
+        <picture>
+            <!-- webp images -->
+            <source type="image/webp" srcset="img/background-extralarge.webp, img/background-extralarge@2x.webp 2x" media="(min-width: 1600px)">
+            <source type="image/webp" srcset="img/background-large.webp, img/background-large@2x.webp 2x" media="(min-width: 800px)">
+            <source type="image/webp" srcset="img/background-small.webp, img/background-small@2x.webp 2x">
+            <!-- jpeg images -->
+            <source srcset="img/background-extralarge.jpg, img/background-extralarge@2x.jpg 2x" media="(min-width: 1600px)">
+            <source srcset="img/background-large.jpg, img/background-large@2x.jpg 2x" media="(min-width: 800px)">
+            <img srcset="img/background-small.jpg, img/background-small@2x.jpg 2x" alt="Background">
+        </picture>
+        <div class="d-container--opacity d-container--full-screen">
+        </div>
+        <div class="d-container__content d-container--full-screen">
+            <div class="d-container__border d-container__border--left-top"></div>
+            <div class="d-container__border d-container__border--left-bot"></div>
+            <div class="d-container__border d-container__border--right-top"></div>
+            <div class="d-container__border d-container__border--right-bot"></div>
 
-<h1>Hello</h1>
-<img src="/img/friday.gif" width="100%"/>
-
+            <div class="d-container__content__header">
+                 <h1>Coming soon</h1>
+                <a href="mailto:roman.pylypets@hotmail.com" class="d-container__content__cta">Email me</a>
+            </div>
+        </div>      
+    </article>
 
 
   
